@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+    background:url(background.jpg) no-repeat;
+    background-size: 100%;
+}
+.header{
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+.menu{
+    max-width: 100%;
+    margin-left: 500px;
+}
+.logo-img{
+    height: 78px;
+}
+input{
+    position:absolute;
+    border:none;
+    top: 50px;
+    height:30px;
+    width: 200px;
+    background-color: transparent;
+    outline: transparent;
+    font-size:13px ;
+    color: #344154;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}  
+
+.shape{
+    position:absolute;
+    max-width: 100%;
+    height:30px;
+    width: 200px;
+    top: 50px;
+}
+
+.nav-link{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #c2a080;
+    margin: 0 10px;
+    transition: color .2s linear;
+}
+
+.nav-link:hover{
+    color:#a7805b;
+}
+
+.nav{
+    margin-left: 350px;
+    margin-top:-60px
+}
+
+.nav-men{
+    width: 50px;
+    height: 30px;
+    margin-left: -550px;
+}
+
+.lorem-title{
+    margin-left: 830px;
+    font-weight: 400;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color:#ceac8d;
+
+}
+
+.lorem-text{
+    margin-left: 830px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color:#d8bba0;
+    margin-top: -50px;
+    font-size: 25px;
+}
